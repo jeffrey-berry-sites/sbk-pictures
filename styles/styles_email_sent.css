@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=News+Cycle');
+
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+@font-face {
+    font-family: TIActuBeta-Regular_web;
+    src: url(fonts/TI_mono/982214e21876e818e4b544d2bf45232c.eot?#iefix);
+    src: url(fonts/TI_mono/982214e21876e818e4b544d2bf45232c.eot?#iefix) format("eot"), url(fonts/TI_mono/f1aa040425be63fced155015b888a94e.woff) format("woff");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: TIActuBeta-Light_web;
+    src: url(fonts/TI_mono/1d34dc0611bc40f3b8250e6d682308f3.eot?#iefix);
+    src: url(fonts/TI_mono/1d34dc0611bc40f3b8250e6d682308f3.eot?#iefix) format("eot"), url(fonts/TI_mono/8ab5117b4e6306a7105aaddc5e6f8e90.woff) format("woff");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: TIActuBetaMono-Thin_web;
+    src: url(fonts/TI_mono/49e666d2be51bd3c36ae7be17c4501f4.eot?#iefix);
+    src: url(fonts/TI_mono/49e666d2be51bd3c36ae7be17c4501f4.eot?#iefix) format("eot"), url(fonts/TI_mono/b771565363b54076376f332289c1ace0.woff) format("woff");
+    font-weight: 400;
+    font-style: normal
+}
+
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #ffffff;
+  font-family: 'TIActuBetaMono-Thin_web', 'News Cycle', sans-serif;
+}
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  font-family: 'TIActuBeta-Regular_web', helvetica, sans-serif;
+  height: 100%;
+  background-color: #000000;
+  -webkit-font-smoothing: antialiased;
+  padding: 30px;
+}
+body {
+  color: #ffffff;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+
+button:focus {
+  outline:0;
+}
+
